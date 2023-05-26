@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+
+  }
+  body{
+    overflow-x: hidden;
+  }
+/*=============Navigation bar==============*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: gray;
+  }
+  
+  
+  /*=====nav image======*/
+  .nav-img{
+    justify-items: end;
+    align-items: end;
+    text-align: right;
+  }
+
+
+
+/*=========welcome body=============*/
+#background{
+    background-image: url('../images/W4.webp');
+    height: 40vh;
+    width: 100%;
+    padding-bottom: 10%;
+}
+.text{
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.card {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-top: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: inline;
+    
+  }
+  .card1{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+.container h1{
+    padding:  0px 4px;
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #ffffff;
+    margin: auto;
+    padding: 20px;
+}
+.container p{
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+
+/*==============Movies css===================*/
+.movie-info p{
+    color: red;
+}
+.background-image{
+    background-image: url('../images/W4.webp');
+    height: 20vh;
+}
+.background-image h1{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 3%;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 15px;
+}
+.cards2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 15px;
+}
+
+/*==============Responsiveness css===================*/
+[class*="col-"] {
+    padding: 0 15px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* MEDIUM SCREEN */
+
+@media only screen and (max-width: 1280px) {
+    .col-md-1 {
+        width: 8.33%;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+/* SMALL SCREEN */
+
+@media only screen and (max-width: 850px) {
+    .col-sm-1 {
+        width: 8.33%;
+    }
+
+    .col-sm-2 {
+        width: 16.66%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+    }
+
+    .col-sm-8 {
+        width: 66.66%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+  /*=====Feedback form============*/
+    /* Add padding to containers */
+.con{
+    padding: 16px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  .container-fluid {
+    border-radius: 5px;
+    background-color: #e4e0e0;
+    padding: 20px;
+  }
+  
+/*==================Footer====================*/
+#footer {
+    background: #000000;
+    height: 20vh;
+    margin-top: 5%;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+    
